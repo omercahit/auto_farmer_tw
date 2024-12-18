@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Oto Yağma Asistanı",
+  "version": "1.0",
+  "description": "A konfigürasyonuna göre otomatik yağma asistanı tıklayıcı.",
+  "permissions": ["activeTab", "scripting", "notifications"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Click Active A Elements"
+  }
+}
+
